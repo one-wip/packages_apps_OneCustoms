@@ -39,4 +39,19 @@
             android:fragment="com.teamone.OneCustoms.fragments.About" 
             android:icon="@drawable/ic_settings_about"/>
 
+       <!-- Misc -->
+        <PreferenceScreen
+            android:key="misc_category"
+            android:title="@string/misc_title" 
+            android:fragment="com.teamone.OneCustoms.fragments.MiscSettings"
+            android:icon="@drawable/ic_settings_miscs"/>
+
+
+       <!-- LockScreen -->
+	 <Preference
+            android:key="lockscreen_category"
+            android:title="@string/lockscreen_title" 
+            android:fragment="com.teamone.OneCustoms.fragments.LockScreen"
+            android:icon="@drawable/ic_settings_lockscreen"/>
+
 </PreferenceScreen>

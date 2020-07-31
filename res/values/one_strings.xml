@@ -19,6 +19,7 @@
     <string name="misc_title">Miscellaneous</string>
     <string name="statusbar_title">Status bar</string>
     <string name="about_title">About</string>
+    <string name="lockscreen_title">Lock Screen</string>
  
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -27,9 +28,58 @@
     <string name="save">Save</string>
 
     <!-- Statusbar net monitor -->
-    <string name="network_traffic_state_title">Network traffic</string>
-    <string name="network_traffic_state_summary">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="statusbar_ntraffic">Network</string>
+    <string name="network_traffic_state_title">Network speed</string>
+    <string name="network_traffic_state_summary">Show network speed in the status bar</string>
+    <string name="network_traffic_location_title">Location</string>
+    <string name="network_traffic_statusbar">Status bar</string>
+    <string name="network_traffic_qs_header">QS header</string>
+    <string name="network_traffic_mode_title">Display mode</string>
+    <string name="network_traffic_dynamic">Dynamic</string>
+    <string name="network_traffic_download">Download</string>
+    <string name="network_traffic_upload">Upload</string>
+    <string name="network_traffic_autohide_threshold_title">Auto-hide threshold</string>
+    <string name="network_traffic_refresh_interval_title">Refresh interval</string>
+
+    <!-- Screen off FOD -->
+    <string name="screen_off_fod_title">Screen off FOD</string>
+    <string name="screen_off_fod_summary">Use fingerprint reader also when the screen is off</string>
+    <string name="screen_off_fod_icon_title">Show icon</string>
+    <string name="screen_off_fod_icon_summary">Show fingerprint icon when the screen is off</string>
+
+    <!-- Brightness Slider(TODO- Make new menu for UI-tunning) -->
+    <string name="brightness_slider_qs_unexpanded">New Brightness slider (beta)</string>
+    <string name="brightness_slider_qs_unexpanded_summary">Shows brightness slider below qs panel</string>
+    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom</string>
+    <string name="qs_brightness_position_bottom_summary">Show a brightness slider on bottom quick settings</string>
+
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">Gaming Mode</string>
+    <string name="gaming_mode_summary">Customize gaming mode preferences</string>
+    <string name="gaming_mode_app_picker_title">Automatically turn on for these apps</string>
+    <string name="add_gaming_mode_package_title">Add apps for Gaming mode</string>
+    <string name="add_gaming_mode_package_summary">Gaming mode will turn on automatically when these apps are opened and turn off when they are closed</string>
+    <string name="gaming_mode_headsup_title">Block notifications</string>
+    <string name="gaming_mode_headsup_summary">Block all headsup messages except calls</string>
+    <string name="gaming_mode_hardware_keys_title">Lock buttons</string>
+    <string name="gaming_mode_hardware_keys_summary">Disable hardware buttons when Gaming mode is turned on</string>
+    <string name="gaming_mode_brightness_title">Disable automatic brightness</string>
+    <string name="gaming_mode_brightness_summary">Lock screen brightness when Gaming mode is turned on</string>
+    <string name="gaming_mode_ringer_title">Ringer in gaming mode</string>
+    <string name="gaming_mode_ringer_off_title">Do not change</string>
+    <string name="gaming_mode_ringer_vibrate_title">Vibrate</string>
+    <string name="gaming_mode_ringer_dnd_title">Do Not Disturb</string>
+    <string name="gaming_mode_ringer_silent_title">Silent</string>
+    <string name="gaming_mode_notifications_title">Gaming mode indication</string>
+    <string name="gaming_mode_notifications_off_title">Disabled</string>
+    <string name="gaming_mode_notifications_notif_title">Show notification</string>
+    <string name="gaming_mode_notifications_toast_title">Show toasts</string>
+    <string name="gaming_mode_notifications_all_title">Show toasts and notification</string>
+    <string name="gaming_mode_dynamic_title">Dynamic mode</string>
+    <string name="gaming_mode_dynamic_summary">Try detecting and adding gaming apps automatically</string>
+    <string name="profile_choose_app">Choose app</string>
+    <string name="dialog_delete_title">Delete</string>
+    <string name="dialog_delete_message">Remove selected item?</string>
 
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>
@@ -47,12 +97,12 @@
     <!-- About -->
     <string name="developers_category_title">Developers</string>
     <string name="support_category_title">Support Team</string>
-    <string name="one_developers_ipsbhangu" translatable="false">• Co-Founder \n• Core Developer \n• UI/UX Designer\n• Maintainer</string>
-    <string name="one_developers_androiabledroid" translatable="false">• Founder \n• Core Developer\n• Maintainer</string>
+    <string name="one_developers_ipsbhangu" translatable="false">• Founder \n• Core Developer \n• UI/UX Designer\n• Maintainer</string>
+    <string name="one_developers_androiabledroid" translatable="false">• Co-Founder \n• Core Developer\n• Maintainer</string>
     <string name="one_support_ashley" translatable="false">• The One whos Effort made this</string>
-    <string name="one_support_gautam" translatable="false">• Teams Inspiration</string>
     <string name="one_support_prathamesh" translatable="false">• Feature Hungry</string>
-    <string name="one_support_kb" translatable="false">• Support Group Moderator</string>
+    <string name="one_support_abuzar" translatable="false">• Feature Bringer</string>
+	<string name="one_support_device" translatable="false">Device Support</string>
     <string name="one_links">Links</string>
     <string name="one_announcements_title">Announcements</string>
     <string name="one_announcements_summary">Official announcements channel</string>
